@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+
+    <!-- Responsive CSS -->
+    <link href="css/responsive/responsive.css" rel="stylesheet">
+    <link href="style2.css" rel="stylesheet">
+    <title>Insurance Plans</title>
+</head>
+<body>
+    
+        <!-- Search Form Area -->
+        <div class="fancy-search-form d-flex align-items-center">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <!-- Close Btn -->
+                        <div class="search-close-btn" id="closeBtn">
+                            <i class="ti-close" aria-hidden="true"></i>
+                        </div>
+                        <!-- Form -->
+                        <form action="#" method="get">
+                            <input type="search" name="fancySearch" id="search" placeholder="| Enter Your Search...">
+                            <input type="submit" class="d-none" value="submit">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- ***** Header Area Start ***** -->
+        <header class="header_area" id="header">
+            <div class="container-fluid h-100">
+                <div class="row h-100">
+                    <div class="col-12 h-100">
+                        <nav class="h-100 navbar navbar-expand-lg align-items-center">
+                            <a class="navbar-brand" href="index.html">Blim Insurance</a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#fancyNav" aria-controls="fancyNav" aria-expanded="false" aria-label="Toggle navigation"><span class="ti-menu"></span></button>
+                            <div class="collapse navbar-collapse" id="fancyNav">
+                                <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="insurancePlans.html">Insurance Plans</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="contact.html">Contact</a>
+                                    </li>
+                                </ul>
+                                <!-- Search & Shop Btn Area -->
+                                <button class="btn btn-primary ml-2"><a href="login.html" style="color:aliceblue">Login</a></button>
+                                <button class="btn btn-primary ml-2"><a href="signup.html" style="color:aliceblue">SignUp</a></button>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- ***** Header Area End ***** -->
+    
+        <!-- ***** Hero Area Start ***** -->
+        <div class="fancy-hero-area bg-img bg-overlay animated-img" style="background-image: url(img/bg-img/hero-1.jpg);">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                    <div class="col-12">
+                        <div class="fancy-hero-content text-center">
+                            <h2>Health insurance, Home insurance, Holiday Policies, etc</h2>
+                            <a href="#" class="btn fancy-btn fancy-active">About Us</a>
+                            <a href="#" class="btn fancy-btn">Contact</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <main class="main-content">
+            <div class="page">
+                <div class="container">
+                    <h3 class="entry-title">Choose your own insurance plan</h3>
+                    <p>Read Carefully and see out sumptuous insurance policies and plans which we have to make your life simpler and easier even in tough times</p>
+
+                    <div class="filter-links filterable-nav">
+                        <select class="mobile-filter">
+                            <option value="*">Show all</option>
+                            <option value=".skyscraper">skyscraper</option>
+                            <option value=".shopping-center">shopping-center</option>
+                            <option value=".apartment">apartment</option>
+                        </select>
+                        <strong>Select Category: </strong>
+                        <a href="#" class="current wow fadeInRight" data-filter="*">Show all</a>
+                        <a href="#" class="wow fadeInRight" data-wow-delay=".2s" data-filter=".skyscraper">skyscraper</a>
+                        <a href="#" class="wow fadeInRight" data-wow-delay=".4s" data-filter=".shopping-center">shopping-center</a>
+                        <a href="#" class="wow fadeInRight" data-wow-delay=".6s" data-filter=".apartment">apartment</a>
+                    </div>
+
+                    <div class="filterable-items row">
+                        <div class="col-12 col-md-4 shopping-center">
+                            <div class="single-blog-area wow fadeInUp" data-wow-delay="0.5s">
+                                <img src="img/home.jpg" alt="">
+                                <div class="blog-content">
+                                    <h5><a href="static-page.html">Home Insurance</a></h5>
+                                    <p>Insure your home from damages that may be occur in the future. We will be there to help you out</p>
+                                    <a href="static-page.html">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-4 skyscraper">
+                            <div class="single-blog-area wow fadeInUp" data-wow-delay="0.5s">
+                                <img src="/img/family.jpg" alt="">
+                                <div class="blog-content">
+                                    <h5><a href="static-page.html">Happy Holiday</a></h5>
+                                    <p>Enjoy your wonderful holidays at fantastic places in the world. We will cover you up all you need to do is contact us</p>
+                                    <a href="static-page.html">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 apartment">
+                            <div class="single-blog-area wow fadeInUp" data-wow-delay="0.5s">
+                                <img src="/img/health.jpg" alt="">
+                                <div class="blog-content">
+                                    <h5><a href="static-page.html">Health Insurance</a></h5>
+                                    <p>Your health is safe in our hands. We are ready to finance your health related issues in times of adversity</p>
+                                    <a href="static-page.html">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-4 skyscraper">
+                            <div class="single-blog-area wow fadeInUp" data-wow-delay="0.5s">
+                                <img src="/img/business.jpg" alt="">
+                                <div class="blog-content">
+                                    <h5><a href="static-page.html">Business Insurance</a></h5>
+                                    <p>Your business will be securely insured by us if you subscribe to out services. All you need to do is contact us, and tesitfy later of our services</p>
+                                    <a href="static-page.html">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="col-12 col-md-4 shopping-center">
+                            <div class="single-blog-area wow fadeInUp" data-wow-delay="0.5s">
+                                <img src="/img/finance.jpg" alt="">
+                                <div class="blog-content">
+                                    <h5><a href="static-page.html">Finances</a></h5>
+                                    <p>Your business will be securely insured by us if you subscribe to out services</p>
+                                    <a href="static-page.html">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-4 apartment">
+                            <div class="single-blog-area wow fadeInUp" data-wow-delay="0.5s">
+                                <img src="/img/machine.jpg" alt="">
+                                <div class="blog-content">
+                                    <h5><a href="static-page.html">Machinery Insurance</a></h5>
+                                    <p>Your business will be securely insured by us if you subscribe to out services</p>
+                                    <a href="static-page.html">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- .page -->
+        </main>
+
+        <div class="site-footer">
+            <div class="widget-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-4 col-md-2">
+                            <div class="widget">
+                                <h3 class="widget-title">Contact</h3>
+                                <address> Lovely Professional University Phagwara
+                                </address>
+                                <a href="#">Phone: +918264174451</a>
+                                <a href="samsonnkrumah253@gmail.com">dort@boanerge.me</a>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-4 col-md-2">
+                            <div class="widget">
+                                <h3 class="widget-title">Company</h3>
+                                <ul class="no-bullet">
+                                    <li><a href="#">About us</a></li>
+                                    <li><a href="#">Infoline</a></li>
+                                    <li><a href="#">Team</a></li>
+                                    <li><a href="#">Join us</a></li>
+                                    <li><a href="#">Cooperation</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-4 col-md-2">
+                            <div class="widget">
+                                <h3 class="widget-title">Products</h3>
+                                <ul class="no-bullet">
+                                    <li><a href="#">Life insurance</a></li>
+                                    <li><a href="#">Home insurance</a></li>
+                                    <li><a href="#">Car insurance</a></li>
+                                    <li><a href="#">Business insurance</a></li>
+                                    <li><a href="#">Investment insurance</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-4 col-md-2">
+                            <div class="widget">
+                                <h3 class="widget-title">Our Solutions</h3>
+                                <ul class="no-bullet">
+                                    <li><a href="#">Presentation</a></li>
+                                    <li><a href="#">Testimonials</a></li>
+                                    <li><a href="#">Examples</a></li>
+                                    <li><a href="#">Our experts</a></li>
+                                    <li><a href="#">Resources</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-4 col-md-2">
+                            <div class="widget">
+                                <h3 class="widget-title">Press Room</h3>
+                                <ul class="no-bullet">
+                                <li><a href="#">Advertisement</a></li>
+                                <li><a href="#">Interviews</a></li>
+                                <li><a href="#">Hot news</a></li>
+                                <li><a href="#">Photos</a></li>
+                                <li><a href="#">Marketing</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-4 col-md-2">
+                            <div class="widget">
+                                <h3 class="widget-title">Resources</h3>
+                                <ul class="no-bullet">
+                                    <li><a href="#">Sed imperdiet magna</a></li>
+                                    <li><a href="#">Pellentesque molestie</a></li>
+                                    <li><a href="#">Nulla luctus cursus</a></li>
+                                    <li><a href="#">Ligula vel lacinia</a></li>
+                                    <li><a href="#">Mauris scelerisque</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="bottom-footer">
+                <div class="container">
+                    <nav class="footer-navigation">
+                        <a href="#">Home</a>
+                        <a href="#">About us</a>
+                        <a href="#">Insurance plans</a>
+                        <a href="#">Resources</a>
+                        <a href="#">Contact</a>
+                    </nav>
+    
+                    <div class="colophon">Copyright 2014 Company name. Designed by Themezy. All rights reserved.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <script src="js/bootstrap/popper.min.js"></script>
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <script src="js/others/plugins.js"></script>
+    <script src="js/active.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/app.js"></script> 
+</body>
+</html>
